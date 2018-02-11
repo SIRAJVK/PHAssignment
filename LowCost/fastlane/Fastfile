@@ -14,6 +14,6 @@ default_platform(:ios)
 platform :ios do
   desc "Description of what the lane does"
   lane :example do
-    # add actions here: https://docs.fastlane.tools/actions
+      run_tests(scheme: "LowCost")
   end
 end
